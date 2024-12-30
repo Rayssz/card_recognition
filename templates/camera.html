@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Card Prediction</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Camera Card Prediction</h1>
+        <div class="camera-wrapper">
+            <video id="video" autoplay></video>
+            <canvas id="canvas" hidden></canvas>
+        </div>
+        <!-- <button id="capture">Capture and Predict</button>
+        <div id="result"></div> -->
+        <div>
+            <button id="capture">Capture and Predict</button>
+                <div class="prediction">
+                    <p>
+                        <strong>Prediction:</strong>
+                        <div id="result"></div>
+                    </p>
+                </div>
+            <script src="/static/scripts.js"></script>
+        </div>
+    </div>
+</body>
+</html>
